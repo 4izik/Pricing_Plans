@@ -37,7 +37,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXH-CT-CKf">
-                                <rect key="frame" x="110.5" y="802" width="193" height="0.0"/>
+                                <rect key="frame" x="110.5" y="792" width="193" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="PbW-JP-fqW"/>
+                                </constraints>
                                 <color key="tintColor" red="0.59999999999999998" green="0.63529411759999999" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" titleAlignment="center">
@@ -53,7 +56,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfZ-r3-twY">
-                                <rect key="frame" x="15" y="727" width="384" height="50"/>
+                                <rect key="frame" x="15" y="717" width="384" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="X6Q-5F-mx5"/>
@@ -162,12 +165,12 @@
                             <constraint firstItem="hdu-wB-ljw" firstAttribute="trailing" secondItem="yfZ-r3-twY" secondAttribute="trailing" constant="15" id="Bdc-D5-P5f"/>
                             <constraint firstItem="3VQ-fP-INO" firstAttribute="leading" secondItem="hdu-wB-ljw" secondAttribute="leading" constant="40" id="ENs-PA-7DH"/>
                             <constraint firstItem="v4R-kD-RQ5" firstAttribute="leading" secondItem="hdu-wB-ljw" secondAttribute="leading" constant="9" id="F4N-Rd-pu3"/>
-                            <constraint firstItem="hdu-wB-ljw" firstAttribute="bottom" secondItem="nXH-CT-CKf" secondAttribute="bottom" constant="60" id="Gwl-H7-8yv"/>
+                            <constraint firstItem="hdu-wB-ljw" firstAttribute="bottom" secondItem="nXH-CT-CKf" secondAttribute="bottom" constant="50" id="Gwl-H7-8yv"/>
                             <constraint firstItem="hdu-wB-ljw" firstAttribute="trailing" secondItem="3VQ-fP-INO" secondAttribute="trailing" constant="40" id="HEw-Ya-eDe"/>
                             <constraint firstItem="KuT-56-33s" firstAttribute="centerY" secondItem="WVL-Uu-xXP" secondAttribute="centerY" id="Y50-c5-95D"/>
                             <constraint firstItem="nXH-CT-CKf" firstAttribute="centerX" secondItem="WVL-Uu-xXP" secondAttribute="centerX" id="Y7v-8n-Hlf"/>
                             <constraint firstItem="3VQ-fP-INO" firstAttribute="top" secondItem="v4R-kD-RQ5" secondAttribute="bottom" constant="15" id="cbq-xh-Btz"/>
-                            <constraint firstItem="yfZ-r3-twY" firstAttribute="top" secondItem="KuT-56-33s" secondAttribute="bottom" priority="900" constant="100" id="gkb-KG-Kwy"/>
+                            <constraint firstItem="yfZ-r3-twY" firstAttribute="top" secondItem="KuT-56-33s" secondAttribute="bottom" priority="900" constant="120" id="gkb-KG-Kwy"/>
                             <constraint firstItem="KuT-56-33s" firstAttribute="centerX" secondItem="WVL-Uu-xXP" secondAttribute="centerX" id="i5j-IG-NOJ"/>
                             <constraint firstItem="hdu-wB-ljw" firstAttribute="trailing" secondItem="KuT-56-33s" secondAttribute="trailing" constant="15" id="j2o-9M-mRN"/>
                             <constraint firstItem="KuT-56-33s" firstAttribute="leading" secondItem="hdu-wB-ljw" secondAttribute="leading" constant="15" id="pHL-hJ-2UQ"/>
