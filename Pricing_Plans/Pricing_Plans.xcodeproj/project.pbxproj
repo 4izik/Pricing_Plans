@@ -13,11 +13,11 @@
 		5DBA7C8927B3C0B100BD9E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA7C8727B3C0B100BD9E79 /* Main.storyboard */; };
 		5DBA7C8B27B3C0B200BD9E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA7C8A27B3C0B200BD9E79 /* Assets.xcassets */; };
 		5DBA7C8E27B3C0B200BD9E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA7C8C27B3C0B200BD9E79 /* LaunchScreen.storyboard */; };
-		5DBA7C9D27B3D26700BD9E79 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA7C9C27B3D26700BD9E79 /* SF-Pro-Display-Bold.otf */; };
-		5DBA7C9F27B3D26F00BD9E79 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA7C9E27B3D26F00BD9E79 /* SF-Pro-Display-Semibold.otf */; };
-		5DBA7CA127B3D27500BD9E79 /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA7CA027B3D27500BD9E79 /* SF-Pro-Display-Heavy.otf */; };
-		5DBA7CA327B3D27C00BD9E79 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA7CA227B3D27C00BD9E79 /* SF-Pro-Display-Regular.otf */; };
 		5DBA7CA527B3DBE600BD9E79 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA7CA427B3DBE600BD9E79 /* TableViewCell.swift */; };
+		5DBA7CAA27B5434300BD9E79 /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA7CA627B5434200BD9E79 /* SF-Pro-Display-Heavy.otf */; };
+		5DBA7CAB27B5434300BD9E79 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA7CA727B5434200BD9E79 /* SF-Pro-Display-Bold.otf */; };
+		5DBA7CAC27B5434300BD9E79 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA7CA827B5434200BD9E79 /* SF-Pro-Display-Semibold.otf */; };
+		5DBA7CAD27B5434300BD9E79 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA7CA927B5434200BD9E79 /* SF-Pro-Display-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +29,11 @@
 		5DBA7C8A27B3C0B200BD9E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DBA7C8D27B3C0B200BD9E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DBA7C8F27B3C0B200BD9E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DBA7C9C27B3D26700BD9E79 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Bold.otf"; path = "../../../../Downloads/San Francisco Pro Text/SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
-		5DBA7C9E27B3D26F00BD9E79 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Semibold.otf"; path = "../../../../Downloads/San Francisco Pro Text/SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
-		5DBA7CA027B3D27500BD9E79 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Heavy.otf"; path = "../../../../Downloads/San Francisco Pro Text/SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
-		5DBA7CA227B3D27C00BD9E79 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Regular.otf"; path = "../../../../Downloads/San Francisco Pro Text/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 		5DBA7CA427B3DBE600BD9E79 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5DBA7CA627B5434200BD9E79 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		5DBA7CA727B5434200BD9E79 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		5DBA7CA827B5434200BD9E79 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		5DBA7CA927B5434200BD9E79 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +82,10 @@
 		5DBA7C9527B3C28700BD9E79 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				5DBA7C9C27B3D26700BD9E79 /* SF-Pro-Display-Bold.otf */,
-				5DBA7CA027B3D27500BD9E79 /* SF-Pro-Display-Heavy.otf */,
-				5DBA7CA227B3D27C00BD9E79 /* SF-Pro-Display-Regular.otf */,
-				5DBA7C9E27B3D26F00BD9E79 /* SF-Pro-Display-Semibold.otf */,
+				5DBA7CA727B5434200BD9E79 /* SF-Pro-Display-Bold.otf */,
+				5DBA7CA627B5434200BD9E79 /* SF-Pro-Display-Heavy.otf */,
+				5DBA7CA927B5434200BD9E79 /* SF-Pro-Display-Regular.otf */,
+				5DBA7CA827B5434200BD9E79 /* SF-Pro-Display-Semibold.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -148,13 +148,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DBA7CAC27B5434300BD9E79 /* SF-Pro-Display-Semibold.otf in Resources */,
 				5DBA7C8E27B3C0B200BD9E79 /* LaunchScreen.storyboard in Resources */,
+				5DBA7CAB27B5434300BD9E79 /* SF-Pro-Display-Bold.otf in Resources */,
 				5DBA7C8B27B3C0B200BD9E79 /* Assets.xcassets in Resources */,
-				5DBA7C9F27B3D26F00BD9E79 /* SF-Pro-Display-Semibold.otf in Resources */,
-				5DBA7C9D27B3D26700BD9E79 /* SF-Pro-Display-Bold.otf in Resources */,
 				5DBA7C8927B3C0B100BD9E79 /* Main.storyboard in Resources */,
-				5DBA7CA327B3D27C00BD9E79 /* SF-Pro-Display-Regular.otf in Resources */,
-				5DBA7CA127B3D27500BD9E79 /* SF-Pro-Display-Heavy.otf in Resources */,
+				5DBA7CAD27B5434300BD9E79 /* SF-Pro-Display-Regular.otf in Resources */,
+				5DBA7CAA27B5434300BD9E79 /* SF-Pro-Display-Heavy.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
